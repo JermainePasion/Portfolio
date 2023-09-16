@@ -1,12 +1,16 @@
 @import 'utilities.css';
 :root {
     --primary: rgb(29, 221, 189);
-    --bgDark: rgb(12, 12, 12);
-    --white: rgb(31, 63, 225);
+    --bgDark: rgb(29, 36, 56);
+    --white: rgb(253, 253, 253);
     --secondary: rgb(0, 59, 50);
     --bgLight: rgb(190, 181, 181);
 }
 
+p{
+
+  line-height: 40px;
+}
 section{
   padding-top: 40px;
 }

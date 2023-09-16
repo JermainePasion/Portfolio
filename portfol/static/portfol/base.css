@@ -1,8 +1,8 @@
 @import 'utilities.css';
 :root{
 --primary: rgb(29, 221, 189);
---bgDark: rgb(12, 12, 12);
---white: rgb(31, 63, 225);
+--bgDark: rgb(29, 36, 56);
+--white: rgb(243, 234, 234);
 --secondary: rgb(0, 59, 50);
 --bgLight: rgb(190, 181, 181);
 }
@@ -34,7 +34,7 @@ margin-right: 3rem;
 }
 body{
 font-family: 'Poppins', sans-serif;
-    background-color: #2c0541;
+    background-color: #232952;
 }
 .container{
 max-width: 1152px;
@@ -52,27 +52,31 @@ margin-left: 200px;
 .hero .right {
 color: var(--white);
 margin-top: -7rem;
+
 }
 .hero .right h6{
 font-size: 1.6rem;
-color: var(--primary);
+color: #c4ddf1;
 margin-bottom: 0.2rem;
 margin-top: 8rem;
+
 }
 .hero .right h1{
 font-size: 4rem;
 font-weight: 100;
 line-height: 1.2;
 margin-bottom: 2rem;
+color: #1DDDBDFF;
 }
 .hero .right h1 span{
-color: var(--primary);
+color: #c4ddf1;
 }
 .hero .right p{
-line-height: 1.9;
-    color: white;
+line-height: 45px;
+    color: #d2f6ed;
 margin-bottom: 2rem;
 margin-right: 5rem;
+
 }
 .flex{
 display: flex;
@@ -89,35 +93,8 @@ justify-content: center;
 .justify-right{
 justify-content: right;
 }
-.btn{
-padding: 0.6rem 2rem;
-font-size: 1rem;
-font-weight: 600;
-border: 2px solid transparent;
-outline: none;
-cursor: pointer;
-text-transform: uppercase;
-transition: all .2s ease;
-}
-.btn-primary{
-background-color: var(--primary);
-color: var(--secondary);
-margin-top: -15rem;
-}
-.btn-primary:hover{
-background: transparent;
-border-color: var(--primary);
-color: var(--primary);
-}
+
+
 .flex-1{
 flex: 1;
-}
-.btn-secondary{
-background: transparent;
-color: var(--primary);
-border-color: var(--primary);
-}
-.btn-secondary:hover{
-background: var(--primary);
-color: var(--secondary);
 }

@@ -1,0 +1,27 @@
+
+{% load static %}
+{% include "portfol/base.html" %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfol/contact.css' %}">
+
+        <div class="container">
+            <form class="" method="post" action="#">
+                {% csrf_token %}
+              <div id="contact" class="form-group">
+                <label name="mail"  for="exampleInputEmail1">Email address</label>
+                <input name="email" type=email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input name="name" type="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Subject</label>
+                  <textarea name="subject" class="form-control" id="exampleInputPassword1" placeholder="Subject"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Contact</button>
+            </form>
+        </div>
+    {% block content %}{% endblock %}
+</body>
+</html>

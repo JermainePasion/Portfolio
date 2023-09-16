@@ -22,6 +22,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/portfol/templates" />
+        <option value="$MODULE_DIR$/contact/templates" />
       </list>
     </option>
   </component>
