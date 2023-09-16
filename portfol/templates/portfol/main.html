@@ -1,0 +1,66 @@
+{% include "portfol/base.html" %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfol/main.css' %}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>Services</h2>
+        <section class="services">
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><img src="{% static 'portfol/img/frontend.png' %}"></div>
+                    <div class="title">Front-end</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><img src="{% static 'portfol/img/backend.png' %}"></div>
+                    <div class="title">Back-end</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><img src="{% static 'portfol/img/paint.png' %}"></div>
+                    <div class="title">Web Design </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><img src="{% static 'portfol/img/responsive.png' %}"></div>
+                    <div class="title">Responsive Design </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><img src="{% static 'portfol/img/ads.png' %}"></div>
+                    <div class="title">Advertising </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><img src="{% static 'portfol/img/support.png' %}"></div>
+                    <div class="title">Support</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    {% block content %}{% endblock %}
+</body>
+</html>

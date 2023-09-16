@@ -4,25 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75f801a-8857-4930-9387-8473e37627e1" name="Changes" comment="first commit" />
+    <list default="true" id="e75f801a-8857-4930-9387-8473e37627e1" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2VSe2kenXpCUvC1xMU2yJzplI09" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Important Files/School/2nd year college/programming/erpapp",
+    "last_opened_file_path": "D:/Important Files/School/2nd year college/programming/portfolio/portfol/static/portfol",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -30,6 +49,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Important Files\School\2nd year college\programming\portfolio\portfol\static\portfol" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Important Files\School\2nd year college\programming\portfolio\portfol\static\portfol\img" />
+      <recent name="D:\Important Files\School\2nd year college\programming\portfolio\portfol\static\portfol" />
+      <recent name="D:\Important Files\School\2nd year college\programming\portfolio\portfol" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="portfolio" type="Python.DjangoServer" factoryName="Django server">
       <module name="portfolio" />
@@ -65,7 +94,7 @@
       <updated>1694833704025</updated>
       <workItem from="1694833729663" duration="187000" />
       <workItem from="1694833928728" duration="1111000" />
-      <workItem from="1694835069407" duration="515000" />
+      <workItem from="1694835069407" duration="10946000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -75,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694835550750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1694835631433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694835631433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

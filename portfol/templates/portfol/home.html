@@ -1,0 +1,23 @@
+{% load static %}
+{% include "portfol/base.html" %}
+
+</head>
+<body>
+<div class="hero flex items-centre justify-between">
+    <div class="left flex-1 justify-center">
+    <img src="{% static 'portfol/img/profile.jpg' %}" alt="Profile">
+</div>
+<div class="right flex-1">
+    <h6>Jermaine Pasion</h6>
+    <h1>Professional<br> <span>Web Developer</span></h1>
+    <p>Welcome to my professional portfolio, a showcase and breakdown of my diverse skills and accomplishments.
+        I invite you to explore a collection of my achievements and
+        capabilities that reflect my commitment to excellence.</p>
+<div>
+
+</div>
+</div>
+</div>
+    {% block content %}{% endblock %}
+</body>
+</html>

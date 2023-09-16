@@ -1,0 +1,30 @@
+{% load static %}
+{% include "portfol/base.html" %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfol/about.css' %}">
+
+</head>
+<body>
+<section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="{% static 'portfol/img/profile2.jpg' %}" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">What I Do Is What I Love</div>
+            <p>
+                I am a recent graduate of Holy Angel University with a hunger for innovation and a strong desire to make a everlasting impression in the field of Web Development.
+                Armed with a strong educational background, I am determined to offer my knowledge and
+                professionalism to your company. Through dedication, innovation, and a hardwork, I aspire to contribute to and
+                thrive in a dynamic professional environment.</p>
+            <div class="button">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% block content %}{% endblock %}
+</body>
+</html>
